@@ -1,3 +1,3 @@
-## website-beta
+## wifey
 
-This is the beta repository for website design in my Rize software development course
+This is the repository for website design week 2 in my Rize software development course
