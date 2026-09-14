@@ -16,13 +16,13 @@
 	<!--Meta Stuff-->
 	<title>Why you should have a wifey!</title>
 </head>
+<body>
 <header>
     <h1 id="big-title">Why you should have a wifey!</h1>
     <h2>My reason?...<span class="i-love-wifey">I love my wifey!!!</span></h2>
     <p>But here are among other reasons to have a wifey!</p>
     <img src="https://i.pinimg.com/736x/c2/16/5f/c2165fab80aab65d8b9aeba54056bcd1.jpg" alt="2 dinosaurs in love" width="150" height="150">
 </header>
-<body>
     <hr />
     <section id="acronym">
         <h2>First you may ask: What does Wifey stands for?</h2>
@@ -60,14 +60,22 @@
                 <h2>Disadvantages</h2>
                 <p>...there are none...why would there be one...</p>
             </div>
-        </table>
+        </fieldset>
     </section>
     <hr />
     <section id="quiz">
         <h2>Here's a test about us...click on the button you believe is the right answer!</h2>
+        <p class="big-paragraph">What is our favorite song?</p>
+        <form id="quiz-form">
+            <button type="button" class="quiz-option" data-correct="false">Summer Nights - SIAMES</button>
+            <button type="button" class="quiz-option" data-correct="false">Abacadabra - Lady Gaga</button>
+            <button type="button" class="quiz-option" data-correct="true">Tokyo Nights - Digital Farm Animals</button>
+            <button type="button" class="quiz-option" data-correct="false">Powerpuff Girls Opening - The Powerpuff Girls</button>
+        </form>
+        <p id="quiz-result"></p>
+        <a id="song-link" class="quiz-option" href="https://youtu.be/SK9lbdheyYo" target="_blank" rel="noopener" hidden>Listen Here</a>
     </section>
     <hr />
-</body>
 <footer>
     <p>Here's a quote that describes the feeling once you found love...</p>
     <br />
@@ -76,6 +84,14 @@
     <br />
     <p>&copy; Copyright 2026 Pongsupa Supapa. All Rights Reserved.</p>
 </footer>
+
+<!--Wrong Popup Dialog-->
+<dialog id="wrong-dialog">
+    <p class="big-paragraph">False! This is a good song but we have a favorite!</p>
+    <button type="button" id="close-dialog" class="quiz-option">Try again</button>
+</dialog>
+
 <!--Script Imports-->
 <script src="script.js"></script>
+</body>
 </html>

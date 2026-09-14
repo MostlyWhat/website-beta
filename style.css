@@ -6,6 +6,10 @@ body {
     font-style: normal;
 }
 
+header {
+    text-align: center;
+}
+
 section {
     padding-top: 1%;
     padding-bottom: 1%;
@@ -26,4 +30,66 @@ h2 {
 .i-love-wifey {
     color: red;
     text-transform: uppercase;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid hotpink;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.quiz-option {
+    display: inline-block;
+    font-family: inherit;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: 2px solid hotpink;
+    background-color: white;
+}
+
+.quiz-option[hidden] {
+    display: none;
+}
+
+.quiz-option:hover {
+    background-color: hotpink;
+    color: white;
+}
+
+#quiz-result {
+    font-size: 3rem;
+    color: red;
+}
+
+dialog {
+    font-family: inherit;
+    text-align: center;
+    border: 3px solid hotpink;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #big-title {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    #quiz-result {
+        font-size: 2rem;
+    }
 }
