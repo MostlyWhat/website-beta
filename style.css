@@ -1,0 +1,29 @@
+body {
+    padding: 2%;
+    background-color: pink;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#big-title {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.big-paragraph {
+    font-size: 1.5rem;
+}
+
+.i-love-wifey {
+    color: red;
+    text-transform: uppercase;
+}
